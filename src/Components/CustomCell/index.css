@@ -1,0 +1,9 @@
+.lastFiveGrid {
+  display: flex;
+  list-style-type: none;
+
+  margin-top: auto;
+}
+.lastFiveIcons {
+  padding: 0 2px;
+}

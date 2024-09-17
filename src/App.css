@@ -1,0 +1,40 @@
+.ag-theme-quartz {
+  /* Changes the color of the grid text */
+  --ag-foreground-color: rgb(14, 68, 145);
+  /* Changes the color of the grid background */
+  --ag-background-color: rgb(241, 247, 255);
+  /* Changes the header color of the top row */
+  --ag-header-background-color: rgb(228, 237, 250);
+  /* Changes the hover color of the row*/
+  --ag-row-hover-color: rgb(216, 226, 255);
+  margin: 20px;
+}
+
+.rag-green {
+  background-color: #33cc3344;
+}
+.rag-red {
+  background-color: #cc222244;
+}
+.bold-header {
+  font-weight: bold;
+}
+.centered-header .ag-header-cell-label {
+  display: flex; /* Use flexbox to center content */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  text-align: center; /* Ensure text alignment */
+}
+.green-border-row {
+  border-bottom: 1px solid green !important; /* Set border color and width */
+  box-shadow: none; /* Remove any default box shadow */
+}
+.download-table{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+  margin: 0 20px;
+  cursor: pointer;
+}
