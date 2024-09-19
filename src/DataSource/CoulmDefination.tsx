@@ -11,7 +11,13 @@ export const colDefination: ColDef<ClubModels>[] = [
       year: "2024-25",
     },
     children: [
-      { headerName: "Club", field: "club", sortable: true, filter: true },
+      {
+        headerName: "Club",
+        field: "club",
+        sortable: true,
+        filter: true,
+        minWidth: 200,
+      },
       { headerName: "MP", field: "matchesPlayed", flex: 1 },
       { headerName: "W", field: "win", flex: 1 },
       { headerName: "D", field: "draw", flex: 1 },
@@ -31,6 +37,7 @@ export const colDefination: ColDef<ClubModels>[] = [
         field: "lastFiveMatches",
         flex: 2,
         cellRenderer: lastFiveComponent,
+        minWidth: 200,
       },
     ],
   },
