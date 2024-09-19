@@ -1,5 +1,5 @@
 export const clubDetails = [
-  {
+  { 
     club: "Man City",
     matchesPlayed: 3,
     win: 3,
@@ -11,8 +11,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "L", "N"],
   },
-  {
-    club: "Liverpool",
+  { club: "Liverpool",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -23,8 +22,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Brighton",
+  { club: "Brighton",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -35,8 +33,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Arsenal",
+  { club: "Arsenal",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -47,8 +44,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Newcastle",
+  { club: "Newcastle",
     matchesPlayed: 3,
     win: 2,
     draw: 1,
@@ -59,8 +55,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Brentford",
+  { club: "Brentford",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -71,8 +66,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Aston Villa",
+  { club: "Aston Villa",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -83,8 +77,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Bournemouth",
+  { club: "Bournemouth",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -95,8 +88,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Nottm Forest",
+  { club: "Nottm Forest",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -107,8 +99,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Tottenham",
+  { club: "Tottenham",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -119,8 +110,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Chelsea",
+  { club: "Chelsea",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -131,8 +121,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Fulham",
+  { club: "Fulham",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -143,8 +132,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "West Ham",
+  { club: "West Ham",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -155,8 +143,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Man United",
+  { club: "Man United",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -167,8 +154,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Leicester City",
+  { club: "Leicester City",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -179,8 +165,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Crystal Palace",
+  { club: "Crystal Palace",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -191,8 +176,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Ipswich Town",
+  { club: "Ipswich Town",
     matchesPlayed: 3,
     win: 3,
     draw: 0,
@@ -203,8 +187,7 @@ export const clubDetails = [
     points: 9,
     lastFiveMatches: ["W", "W", "D", "N", "N"],
   },
-  {
-    club: "Wolves",
+  { club: "Wolves",
     matchesPlayed: 3,
     win: 3,
     draw: 0,

@@ -38,3 +38,6 @@
   margin: 0 20px;
   cursor: pointer;
 }
+.table-header {
+  display: flex;
+}

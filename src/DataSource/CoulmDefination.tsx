@@ -1,7 +1,9 @@
+import { ColDef } from "ag-grid-community";
 import { lastFiveComponent } from "../Components/CustomCell";
 import CustomHeader from "../Components/CustomHeader";
+import { ClubModels } from "../Types/ClubModels";
 
-export const colDefination = [
+export const colDefination: ColDef<ClubModels>[] = [
   {
     headerGroupComponent: CustomHeader,
     headerGroupComponentParams: {
@@ -9,7 +11,7 @@ export const colDefination = [
       year: "2024-25",
     },
     children: [
-      { headerName: "Club", field: "club", flex: 2, editable: true },
+      { headerName: "Club", field: "club", sortable: true, filter: true },
       { headerName: "MP", field: "matchesPlayed", flex: 1 },
       { headerName: "W", field: "win", flex: 1 },
       { headerName: "D", field: "draw", flex: 1 },
